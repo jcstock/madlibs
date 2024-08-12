@@ -8,6 +8,7 @@
 #
 
 library(shiny)
+#library(shinyvalidate)
 
 generate_story <- function(noun, verb, adjective, adverb) {
   glue::glue("
